@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">38622064</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#before-after">Before / After</a></li>
+          <li><a href="#tutorials">Tutorials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">38622064</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#before-after"onclick="toggleMenu()">Before / After</a></li>
+          <li><a href="#tutorials"onclick="toggleMenu()">Tutorials</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/infinity.jpg" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">38622064</h1>
+        <p class="section__text__p2">This is my Major Work!</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/adobecc.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>4+ years <br />Adobe for Enterprise</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>4+ years <br>IST, iSTEM, and Industrial Tech Multimedia</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi! I'm 38622064, the genius mind behind this Major Work for my HSC Industrial Technology Multimedia class. Enjoy having a look around!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photoshop</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lightroom</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>InDesign</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Illustrator</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Premiere Pro</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Visual Studio Code</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#before-after'"
+      />
+    </section>
+    <section id="before-after">
+  <p class="section__text__p1">See My Work Transformations</p>
+<h1 class="title">Before / After / Details</h1>
+<p class="table-note">
+  Tip: Click any image for a closer look.
+</p>
+
+<table class="responsive-table" role="table" aria-label="Before and After image gallery with details">
+  <thead>
+    <tr>
+      <th scope="col">Before</th>
+      <th scope="col">After</th>
+      <th scope="col">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Before"><img src="./assets/Frank Ocean Brutalism Poster DURING.jpg" alt="Before example 1" /></td>
+      <td data-label="After"><img src="./assets/frankposter.jpg" alt="After example 1" /></td>
+      <td data-label="Details">Created a Frank Ocean inspired brutalism-esque poster from scratch in Photoshop using threshold levels, adjustment layers, layer masks, etc. This is my proudest piece and was inspired by Pinterest brutalism posters and my love for his music. Took approx. 6-8 hours.</td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Brad Andy Warhol Art BEFORE.JPG" alt="Before example 2" /></td>
+      <td data-label="After"><img src="./assets/Brad Andy Warhol Art AFTER.jpg" alt="After example 2" /></td>
+      <td data-label="Details">Did a photoshoot with my friends using my Canon EOS 3000D and turned this photo into Andy Warhol-esque pop art with my friend resembling Joker through a YouTube tutorial and further tweaking of colours, global edits, etc. Took approx. 2 hours.</td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Balancing a Sunrise Exposure in Lightroom BEFORE (Tutorial).JPG" alt="Before example 3" /></td>
+      <td data-label="After"><img src="./assets/Balancing a Sunrise Exposure in Lightroom AFTER (Tutorial).jpg" alt="After example 3" /></td>
+      <td data-label="Details"><p>I used global edits in Lightroom to balance this image out. <a href="#tutorials" class="inline-link">Click here</a> for the tutorial page!</p></td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Flynn Raccoon Face Swap BEFORE.JPG" alt="Before example 4" /></td>
+      <td data-label="After"><img src="./assets/Flynn Raccoon Face Swap After.jpg" alt="After example 4" /></td>
+      <td data-label="Details">Cut out my friend's facial features and blended them onto a raccoon using eraser, layer masks, lasso, etc. in Photoshop. Took approx. 1 1/2 hours.</td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Fijian Flower Lightroom Duotone BEFORE.jpg" alt="Before example 5" /></td>
+      <td data-label="After"><img src="./assets/Fijian Flower Lightroom Duotone AFTER.jpg" alt="After example 5" /></td>
+      <td data-label="Details">Aiming for a duotone effect, I made minor adjustments to the global edits e.g contrast, exposure. Then I went into further detail in colour grading / colour detail to adjust specific areas of midtones, shadows and highlights. Took approx. 1 hour.</td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Gradient Text BEFORE (Tutorial).jpg" alt="Before example 6" /></td>
+      <td data-label="After"><img src="./assets/Gradient Text AFTER (Tutorial).jpg" alt="After example 6" /></td>
+      <td data-label="Details"><p>Added a gradient overlay to my student number in Photoshop. <a href="#tutorials" class="inline-link">Click here</a> for the tutorial page!</p></td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Fiji Sunset Watercolour Effect BEFORE.JPG" alt="Before example 7" /></td>
+      <td data-label="After"><img src="./assets/Fiji Sunset Watercolour Effect AFTER.jpg" alt="After example 7" /></td>
+      <td data-label="Details">Used a YouTube tutorial on creating a watercolour effect in Photoshop and tweaked it to my liking. Took approx. 20 mins.</td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Julian Film Effect Lightroom BEFORE.JPEG" alt="Before example 8" /></td>
+      <td data-label="After"><img src="./assets/Julian Film Effect Lightroom AFTER.jpg" alt="After example 8" /></td>
+      <td data-label="Details">Used global edits, effects, colour grading and colour detail to achieve this film effect in Lightroom. Took approx. 1 hour.</td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Fijian Flower Colour Isolation BEFORE (Tutorial).jpg" alt="Before example 9" /></td>
+      <td data-label="After"><img src="./assets/Fijian Flower Colour Isolation AFTER (Tutorial).jpg" alt="After example 9" /></td>
+      <td data-label="Details"><p>Takes less than 2 minutes to isolate an object and it's colour. <a href="#tutorials" class="inline-link">Click here</a> for the tutorial page!</p></td>
+    </tr>
+    <tr>
+      <td data-label="Before"><img src="./assets/Portrait Pool Sunset Artistic Sketch Effect BEFORE.JPEG" alt="Before example 10" /></td>
+      <td data-label="After"><img src="./assets/Portrait Pool Sunset Artistic Sketch Effect AFTER.jpg" alt="After example 10" /></td>
+      <td data-label="Details">Applied a sketch effect over a photo in Photoshop. Took approx. 5 mins.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<section id="tutorials">
+  <p class="section__text__p1">Learn With Me</p>
+  <h1 class="title">Tutorials</h1>
+  <div class="tutorials-container">
+    <article class="tutorial">
+      <h3>Balancing Exposure in Lightroom</h3>
+      <video controls width="100%">
+        <source src="./assets/Balancing Sunrise Exposure in Lightroom Tutorial.mp4" type="video/mp4" />
+        Sorry, your browser does not support the video tag.
+      </video>
+      <p>How to balance exposure in under 2 minutes!</p>
+    </article>
+    <article class="tutorial">
+      <h3>Text Gradient Overlay in Photoshop</h3>
+      <video controls width="100%">
+        <source src="./assets/Gradient Overlay in Photoshop.mp4" type="video/mp4" />
+        Sorry, your browser does not support the video tag.
+      </video>
+      <p>Easiest way to apply gradient overlay to text!</p>
+    </article>
+    <article class="tutorial">
+      <h3>Subject Colour Isolation in Photoshop</h3>
+      <video controls width="100%">
+        <source src="./assets/Colour Isolation in Photoshop.mp4" type="video/mp4" />
+        Sorry, your browser does not support the video tag.
+      </video>
+      <p>How to isolate one subject and it's colour!</p>
+  </div>
+</section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:thisisnotavalidaddress@gmail.com">thisisnotavalidaddress@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#before-after">Before / After</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 38622064. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
